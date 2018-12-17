@@ -97,8 +97,8 @@ section.container .row {
 .jumbotron {
   display: flex;
   align-items: center;
-  height: 350px;
-  background-image: url("Images/Cirrus.jpg");
+  height: 500px;
+  background-image: url('https://steffic17.github.io/Images/Cirrus.jpg');
   background-size: cover;
   background-position: center;
 }
