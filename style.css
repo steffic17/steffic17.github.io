@@ -82,8 +82,8 @@ header .row {
   padding: 3px;
   font-weight: 500;
   color: #2e6da4;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: 1.1rem;
 }
 
