@@ -60,6 +60,7 @@ header .row {
 .col-sm-4 p {
   margin: 10px 10px 15px;
   min-width: 60px;
+  max-width: 300px;
   padding: 1px;
   font-weight: 500;
   color: #2e6da4;
