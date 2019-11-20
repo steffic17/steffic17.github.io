@@ -5,20 +5,38 @@
 <head>
   <title>Engineering the Blue</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,500,300' rel='stylesheet' type='text/css'>
   <link href="style.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <header class="container">
+  <header id="top" class="container">
     <div class="row">
       <logo class="col-sm-8">
         <img src="Images/Logo.jpg">
       </logo>
+<!-- Add a menu button to navigate  -->
       <nav class="col-sm-4 text-right">
-        <!-- <p>Contact</p> -->
-		<a class="btn btn-primary" href="mailto: contact@engineeringtheblue?subject = Enquiry">Contact</a>
+		<!-- <img class="btn btn-primary" src= "Images/menu-icon.png"> -->
+		<div class="col-sm-8 dropdown">
+		  <button class="dropbtn pill-grey align-right"><img src="Images/menu-icon.png" /></button>
+		  <div class="dropdown-content">
+			<a href="#data-analysis">Data Analysis & Data Processing</a>
+			<a href="#computational-simulation">Computational Simulation</a>
+			<a href="#machine-learning">Machine Learning</a>
+			<a href="#spreadsheets">Spreadsheets & Databases</a>
+			<a href="#documentation">Documentation</a>
+			<a href="#languages">Languages</a>
+		  </div>
+		</div>
+		
+		<div class="col-sm-4 dropdown">
+		  <a href="mailto: contact@engineeringtheblue?subject = Enquiry"><button class="dropdown dropbtn pill-grey">Contact</button></a>
+		</div>
       </nav>
     </div>
   </header>
@@ -34,57 +52,184 @@
     </section>
 
 
-      <section class="container">
+    <section class="container">
+      <figure id="data-analysis" class="row text-center">
+        <img src="Images/data-processing.jpg">
+      </figure>
       <div class="row">
-        <figure class="col-sm-4">
-          <img src="Images/scientific-programming.jpg">
-          <a href="#">
-            <h2>Scientific Programming</h2>
-          </a>
-          <p>Scientific programming, mathematical coding for analysis of data, development of of dynamic simulations and more.</p>
-          <p>Experienced using numerous languages including Python, Matlab, Ruby, C++, Fortran, Visual Basic and SQL.</p>
-        </figure>
-        <figure class="col-sm-4">
-          <img src="Images/data-processing.jpg">
-          <a href="#">
-            <h2>Data Processing</h2>
-          </a>
-          <p>Experienced with various data analysis techniques, validation of data, statistical analysis, generating charts, tables etc.</p>
-        </figure>
-        <figure class="col-sm-4">
-          <img src="Images/algorithm-development.jpg">
-          <a href="#">
-            <h2>Algorithm Development</h2>
-          </a>
-          <p>Development of algorithms for many different applications, data flow, mathematical approximations, optimisation and more.</p>
-        </figure>
+        <h2>Data Analysis & Data Processing</h2>
       </div>
-
       <div class="row">
-        <figure class="col-sm-4">
-          <img src="Images/spreadsheets.jpg">
-          <a href="#">
-            <h2>Speadsheet Development</h2>
-          </a>
-          <p>Simple to complex calculations, developing from scratch or trouble shooting an existing spreadsheet - we can help you.</p>
-          <p>Macros and Visual Basic supported.</p>
-        </figure>
-        <figure class="col-sm-4">
-          <img src="Images/databases.jpg">
-          <a href="#">
-            <h2>Database Development</h2>
-          </a>
-          <p>If you're developing a database from scratch, trouble shooting an existing database, or need to rebuild a database - we can help you.</p>
-          <p>SQL and complex databases supported.</p>
-        </figure>
-        <figure class="col-sm-4">
-          <img src="Images/Documentation.jpg">
-          <a href="#">
-            <h2>Documentation</h2>
-          </a>
-          <p>Your project fully documented as required. With written reports, specification documents, studies, calculations, training materials and presentations produced depending on your particular requirements.</p>
-        </figure>
+		<div class="col-sm-4">
+		  <ul>
+		    <li>DATA CLEANSING</li>
+			<li>STATISTICAL ANALYSIS</li>
+			<li>DATA VISUALISATION</li>
+			<li>DATA MANIPULATION</li>
+		  </ul>
+		</div>
+		<div class="col-sm-8">
+          <p>We can help you understand your data!  Release the meaningful stories from your huge lists of numbers and groupings.  How do we do this?</p>
+		  <p>First, we understand what you are measuring, is it categorical or numeric data or a combination.  We then cleanse the data for format, anomalies, validity, completeness and consistency.</p>
+		  <p>At this point we can visualise your data; histograms, bar charts, box and whisker plots.  We can also do some statistical assessments of the data, to find distributions, maximum values, minimum values, means, medians.  All as appropriate for the data.</p>
+		  <p>Now the data can be manipulated, have the data streams combined, variables compared, or machine learning tools applied to reveal deeper insights.</p>
+		</div>
+	  </div>
+	  
+	  <div class="row">
+        <p align="right"><a href="#top">Back to top</a></p>
+	  </div>
+	  
+      <figure id="computational-simulation" class="row text-center">
+        <img src="Images/algorithm-development.jpg">
+      </figure>
+      <div class="row">
+        <h2>Computational Simulation</h2>
       </div>
+      <div class="row">
+		<div class="col-sm-4">
+		  <ul>
+		    <li>BESPOKE STATIC AND DYNAMIC MODELS</li>
+			<li>VALIDATION</li>
+			<li>MODEL DEVELOPMENT</li>
+			<li>THEORETICAL PREDICTIONS</li>
+			<li>ALGORITHMS</li>
+		  </ul>
+		</div>
+		<div class="col-sm-8">
+          <p>We can help you develop or troubleshoot a wide range of computational simulation modelling solutions.  Specialist in replication of simple and complex physical systems as computer simulation tools, particularly in the aerospace applications.  Experienced with many broad modelling tools, such as Python, Fortran, C++ and a number of specialist software tools including Matlab, Simulink, nSoft, ADMS.</p>
+          <p>From designing experiments to validate models, to assisting build models, to setting up batch operation of models to generate simulation results and developing theories to support and improve the experimental and modelling outcomes.</p>
+		</div>
+	  </div>
+	  
+	  <div class="row">
+        <p align="right"><a href="#top">Back to top</a></p>
+	  </div>
+	  
+	  
+      <figure id="machine-learning" class="row text-center">
+        <img src="Images/machine_learning.jpg">
+      </figure>
+      <div class="row">
+        <h2>Machine Learning</h2>
+      </div>
+      <div class="row">
+		<div class="col-sm-4">
+		  <ul>
+		    <li>SUPERVISED METHODS</li>
+			<ul style='line-height:1.5;'>
+			  <li>REGRESSION</li>
+			  <li>CLASSIFICATION</li>
+			  <li>PRINCIPAL COMPONENT ANALYSIS</li>
+			  <li>DECISION TREES</li>
+			  <li>RANDOM FORESTS</li>
+			  <li>ENSEMBLE METHODS</li>
+			</ul>
+			<li>UNSUPERVISED METHODS</li>
+			<ul style='line-height:1.5;'>
+			  <li>CLUSTERING</li>
+			  <li>NEURAL NETWORKS</li>
+			</ul>
+		  </ul>
+		</div>
+		<div class="col-sm-8">
+          <p>We can develop Machine Learning algorithms to find natural patterns in your data, to generate insight, help you to make better decisions and make predictions about the future.</p>
+		  <p>Using supervised methods to train a model based on selected input and output data or using unsupervised methods to reveal intrinsic patterns in your data we can help you to understand your valuable data better.</p>
+		</div>
+	  </div>
+	  
+	  <div class="row">
+        <p align="right"><a href="#top">Back to top</a></p>
+	  </div>
+	  
+      <figure id="spreadsheets" class="row text-center">
+        <img src="Images/Spreadsheet-Database.jpg">
+      </figure>
+      <div class="row">
+          <h2>Spreadsheets & Databases</h2>
+      </div>
+      <div class="row">
+		<div class="col-sm-4">
+		  <ul>
+		    <li>SIMPLE & COMPLEX CALCULATIONS</li>
+			<li>GRAPHS & CHARTS</li>
+			<li>MACROS</li>
+		  </ul>
+		</div>
+		<div class="col-sm-8">
+          <p>Got a spreadsheet or database that’s gone rogue?  Let us help tame it!</p>
+		  <p>Complex calculations, multiple sheets, multiple files, graphs, charts, links, macros, SQL, tables, you name it we can help.  Explain what it’s supposed to calculate and output, let us take a look and we’ll fix it, re-build it, test it and leave a good comment trail and documentation!</p>
+		</div>
+	  </div>
+	  
+	  <div class="row">
+        <p align="right"><a href="#top">Back to top</a></p>
+	  </div>
+	  
+	  
+      <figure id="documentation" class="row text-center">
+        <img src="Images/Documentation.jpg">
+      </figure>
+      <div class="row">
+        <h2>Documentation</h2>
+      </div>
+      <div class="row">
+		<div class="col-sm-4">
+		  <ul>
+		    <li>SOFTWARE TRAINING MATERIALS</li>
+			<li>SPECIFICATION DOCUMENTS</li>
+			<li>PROOF OF MARKET STUDIES</li>
+			<li>REPORTS / PRESENTATIONS</li>
+		  </ul>
+		</div>
+		<div class="col-sm-8">
+          <p>So important, and so often overlooked.</p>
+		  <p>We can provide a full document trail for your project.  Software training materials for complex modelling projects, proof of market studies, specification documents, fully documented code and at project completion give you a run through of the work in the form of a presentation.</p>
+		</div>
+	  </div>
+	  
+	  <div class="row">
+        <p align="right"><a href="#top">Back to top</a></p>
+	  </div>
+	  
+      <figure id="languages" class="row text-center">
+        <img src="Images/scientific-programming.jpg">
+      </figure>
+      <div class="row">
+        <h2>Languages</h2>
+      </div>
+      <div class="row">
+		<div class="col-sm-2">
+		  <ul>
+		    <li>PYTHON</li>
+			<li>PANDAS</li>
+			<li>NUMPY</li>
+			<li>SCIKIT-LEARN</li>
+			<li>MATPLOTLIB</li>
+		    <li>MATLAB</li>
+		    <li>SIMULINK</li>
+		  </ul>
+		</div>
+		<div class="col-sm-2">
+		  <ul>
+			<li>FORTRAN</li>
+			<li>VISUAL BASIC</li>
+			<li>SQL</li>
+			<li>HTLM</li>
+			<li>CSS</li>
+			<li>SASS</li>
+			<li>JAVASCRIPT</li>
+		  </ul>
+		</div>
+		<div class="col-sm-8">
+          <p>Experienced in a wide range of coding techniques, from back-end to front-end web development and specialist scientific and engineering programming and simulation.</p>
+		</div>
+	  </div>
+	  
+	  <div class="row">
+        <p align="right"><a href="#top">Back to top</a></p>
+	  </div>
+	  
     </section>
 
     <div class="row text-center">
@@ -92,49 +237,43 @@
     </div>
   </body>
 
-  <footer class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <h2>Engineering the Blue Limited</h2>
-      </div>
-<!--       <ul class="col-sm-8 text-right">
-        <li class="col-sm-1">
-          <img src= "https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook-grey.svg">
-        </li>
-        <li class="col-sm-1">
-          <img src= "https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter-grey.svg">
-        </li>
-        <li class="col-sm-1">
-          <img src= "https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram-grey.svg">
-        </li>
-        <li class="col-sm-1">
-          <img src= "https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium-grey.svg">
-        </li>
-      </ul> -->
+  <footer class="footer">
+	<div class="row">
+      <div class="col-sm-8">
+	    <h2>Engineering the Blue Limited</h2>
+	  </div>
+	  <div class="col-sm-1">
+        <img src= "Images/email.png">
+	  </div>
+	  <div class="col-sm-1">
+          <img src= "Images/twitter.png">
+	  </div>
+	  <div class="col-sm-1">
+          <img src= "Images/linked_in.png">
+	  </div>
+	  <div class="col-sm-1">
+          <img src= "Images/github.png">
+	  </div>
     </div>
     <div class="row">
-      <div class="col-sm-6">
-	    <p>Company number:</p>
-        <p>8276633</p>
-      </div>
-     </div>
-    <div class="row">
-      <div class="col-sm-6">
-	    <p>Registered office address:</p>
-          <p>20-22 Wentlock Road, London N1 7GU</p>
-      </div>
-     </div>
-    <div class="row">
-      <div class="col-sm-6">
-	    <p>Telephone:</p>
-        <p>+44 5603 672 320</p>
-      </div>
-     </div>
-    <div class="row">
-      <div class="col-sm-6">
-	    <p>Email:</p>
-        <p>contact@engineeringtheblue.com</p>
-      </div>
+	  <h3 class="col-sm-2">Company number:</h3>
+      <p class="col-sm-4">8276633</p>
     </div>
+    <div class="row">
+	  <h3 class="col-sm-2">Registered office address:</h3>
+      <p class="col-sm-4">20-22 Wentlock Road, London N1 7GU</p>
+    </div>
+    <div class="row">
+	  <h3 class="col-sm-2">Telephone:</h3>
+      <p class="col-sm-4">+44 5603 672 320</p>
+    </div>
+    <div class="row">
+	  <h3 class="col-sm-2">Email:</h3>
+      <p class="col-sm-4">contact@engineeringtheblue.com</p>
+    </div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+
   </footer>
 </html>
