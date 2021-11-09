@@ -9,15 +9,11 @@ body {
 }
 
 figure img {
-  min-height: 95%;
-  max-height: 95%;
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 figure {
-
-  height: 50vh;
-
   margin-bottom: 30px;
   background-color: #7a93b1;
   padding: 15px;
@@ -26,7 +22,7 @@ figure {
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
   animation-name: example;
   animation-duration: 4s;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
 }
 
 /* The animation code */
@@ -96,7 +92,6 @@ header .row {
   display: flex;
   align-items: center;
 }
-
 row {
 	justify-content: center;
 	align-items: center;
@@ -239,8 +234,13 @@ section.container .row {
 .jumbotron1 {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   height: 75vh;
   background-image: url('https://steffic17.github.io/Images/Stratosphere.jpg');
+=======
+  height: 400px;
+  background-image: url('https://steffic17.github.io/Images/Cirrus.jpg');
+>>>>>>> parent of 0e28261 (Figure sizing)
   background-size: cover;
   background-position: center;
 }
