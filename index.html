@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>Engineering the Blue</title>
 <link rel="shortcut icon" href="Images/Favicon.ico">
+
 <head>
   <title>Engineering the Blue</title>
+  
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Roboto:700,500,300' rel='stylesheet' type='text/css'>
   <link href="style.css" type="text/css" rel="stylesheet">
@@ -11,17 +13,47 @@
   
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <style>
+  /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color: #7a93b1;
+    }
+  </style>
 </head>
 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <logo class="col-sm-8">
+        <img src="Images/Logo.jpg">
+      </logo>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="mailto: contact@engineeringtheblue?subject = Enquiry">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
 <body>
-  <header id="top" class="container">
+<!--  <header id="top" class="container">
     <div class="row">
       <logo class="col-sm-8">
         <img src="Images/Logo.jpg">
       </logo>
-<!-- Add a menu button to navigate  -->
+<!-- Add a menu button to navigate
       <nav class="col-sm-4 text-right">
-		<!-- <img class="btn btn-primary" src= "Images/menu-icon.png"> -->
+		<!-- <img class="btn btn-primary" src= "Images/menu-icon.png">
 		<div class="col-sm-8 dropdown">
 		  <button class="dropbtn pill-grey align-right"><img src="Images/menu-icon.png" /></button>
 		  <div class="dropdown-content">
@@ -39,190 +71,44 @@
 		</div>
       </nav>
     </div>
-  </header>
+  </header>-->
 
 
-   <section class="jumbotron">
+   <section class="jumbotron1">
     <div class="container">
-      <div class="row text-center">
+<!--      <div class="row text-center">
         <h2>Specialist Technical Consulting</h2>
         <h3>Work Smarter</h3>
-       </div>
-      </div>
+       </div>-->
+	  </div>
+    </section>
+	
+    <section class="jumbotron2">
+    <div class="container">
+ <!--     <div class="row text-center">
+        <h2>Another bland statement</h2>
+        <h3>So vague</h3>
+       </div>-->
+	  </div>
     </section>
 
 
     <section class="container">
-      <figure id="data-analysis" class="text-center">
-        <img src="Images/data-processing.jpg">
-      </figure>
       <div class="row">
-        <h2>Data Analysis & Data Processing</h2>
+        <h2 id="team">Team</h2>
       </div>
       <div class="row">
-		<div class="col-sm-4">
-		  <ul>
-		    <li>DATA CLEANSING</li>
-			<li>STATISTICAL ANALYSIS</li>
-			<li>DATA VISUALISATION</li>
-			<li>DATA MANIPULATION</li>
-		  </ul>
+		<div class="col-sm-6">
+		  <figure><img src="Images/RW.jpg"></figure>
+		  <h2>Rob Walden</h2>
+		  <h3>Co-founder & Technical Specialist</h3>
+		  <h4>rob.walden@engineeringtheblue.com</h4>
 		</div>
-		<div class="col-sm-8">
-          <p>We can help you understand your data!  Release the meaningful stories from your huge lists of numbers and groupings.  How do we do this?</p>
-		  <p>First, we understand what you are measuring, is it categorical or numeric data or a combination.  We then cleanse the data for format, anomalies, validity, completeness and consistency.</p>
-		  <p>At this point we can visualise your data; histograms, bar charts, box and whisker plots.  We can also do some statistical assessments of the data, to find distributions, maximum values, minimum values, means, medians.  All as appropriate for the data.</p>
-		  <p>Now the data can be manipulated, have the data streams combined, variables compared, or machine learning tools applied to reveal deeper insights.</p>
-		</div>
-	  </div>
-	  
-	  <div class="row">
-        <p align="right"><a href="#top">Back to top</a></p>
-	  </div>
-	  
-      <figure id="computational-simulation" class="text-center">
-        <img src="Images/algorithm-development.jpg">
-      </figure>
-      <div class="row">
-        <h2>Computational Simulation</h2>
-      </div>
-      <div class="row">
-		<div class="col-sm-4">
-		  <ul>
-		    <li>BESPOKE STATIC AND DYNAMIC MODELS</li>
-			<li>VALIDATION</li>
-			<li>MODEL DEVELOPMENT</li>
-			<li>THEORETICAL PREDICTIONS</li>
-			<li>ALGORITHMS</li>
-		  </ul>
-		</div>
-		<div class="col-sm-8">
-          <p>We can help you develop or troubleshoot a wide range of computational simulation modelling solutions.  Specialist in replication of simple and complex physical systems as computer simulation tools, particularly in the aerospace applications.  Experienced with many broad modelling tools, such as Python, Fortran, C++ and a number of specialist software tools including Matlab, Simulink, nSoft, ADMS.</p>
-          <p>From designing experiments to validate models, to assisting build models, to setting up batch operation of models to generate simulation results and developing theories to support and improve the experimental and modelling outcomes.</p>
-		</div>
-	  </div>
-	  
-	  <div class="row">
-        <p align="right"><a href="#top">Back to top</a></p>
-	  </div>
-	  
-	  
-      <figure id="machine-learning" class="text-center">
-        <img src="Images/machine_learning.jpg">
-      </figure>
-      <div class="row">
-        <h2>Machine Learning</h2>
-      </div>
-      <div class="row">
-		<div class="col-sm-4">
-		  <ul>
-		    <li>SUPERVISED METHODS</li>
-			<ul style='line-height:1.5;'>
-			  <li>REGRESSION</li>
-			  <li>CLASSIFICATION</li>
-			  <li>PRINCIPAL COMPONENT ANALYSIS</li>
-			  <li>DECISION TREES</li>
-			  <li>RANDOM FORESTS</li>
-			  <li>ENSEMBLE METHODS</li>
-			</ul>
-			<li>UNSUPERVISED METHODS</li>
-			<ul style='line-height:1.5;'>
-			  <li>CLUSTERING</li>
-			  <li>NEURAL NETWORKS</li>
-			</ul>
-		  </ul>
-		</div>
-		<div class="col-sm-8">
-          <p>We can develop Machine Learning algorithms to find natural patterns in your data, to generate insight, help you to make better decisions and make predictions about the future.</p>
-		  <p>Using supervised methods to train a model based on selected input and output data or using unsupervised methods to reveal intrinsic patterns in your data we can help you to understand your valuable data better.</p>
-		</div>
-	  </div>
-	  
-	  <div class="row">
-        <p align="right"><a href="#top">Back to top</a></p>
-	  </div>
-	  
-      <figure id="spreadsheets" class="text-center">
-        <img src="Images/Spreadsheet-Database.jpg">
-      </figure>
-      <div class="row">
-          <h2>Spreadsheets & Databases</h2>
-      </div>
-      <div class="row">
-		<div class="col-sm-4">
-		  <ul>
-		    <li>SIMPLE & COMPLEX CALCULATIONS</li>
-			<li>GRAPHS & CHARTS</li>
-			<li>MACROS</li>
-		  </ul>
-		</div>
-		<div class="col-sm-8">
-          <p>Got a spreadsheet or database that’s gone rogue?  Let us help tame it!</p>
-		  <p>Complex calculations, multiple sheets, multiple files, graphs, charts, links, macros, SQL, tables, you name it we can help.  Explain what it’s supposed to calculate and output, let us take a look and we’ll fix it, re-build it, test it and leave a good comment trail and documentation!</p>
-		</div>
-	  </div>
-	  
-	  <div class="row">
-        <p align="right"><a href="#top">Back to top</a></p>
-	  </div>
-	  
-	  
-      <figure id="documentation" class="text-center">
-        <img src="Images/Documentation.jpg">
-      </figure>
-      <div class="row">
-        <h2>Documentation</h2>
-      </div>
-      <div class="row">
-		<div class="col-sm-4">
-		  <ul>
-		    <li>SOFTWARE TRAINING MATERIALS</li>
-			<li>SPECIFICATION DOCUMENTS</li>
-			<li>PROOF OF MARKET STUDIES</li>
-			<li>REPORTS / PRESENTATIONS</li>
-		  </ul>
-		</div>
-		<div class="col-sm-8">
-          <p>So important, and so often overlooked.</p>
-		  <p>We can provide a full document trail for your project.  Software training materials for complex modelling projects, proof of market studies, specification documents, fully documented code and at project completion give you a run through of the work in the form of a presentation.</p>
-		</div>
-	  </div>
-	  
-	  <div class="row">
-        <p align="right"><a href="#top">Back to top</a></p>
-	  </div>
-	  
-      <figure id="languages" class="text-center">
-        <img src="Images/scientific-programming.jpg">
-      </figure>
-      <div class="row">
-        <h2>Languages</h2>
-      </div>
-      <div class="row">
-		<div class="col-sm-2">
-		  <ul>
-		    <li>PYTHON</li>
-			<li>PANDAS</li>
-			<li>NUMPY</li>
-			<li>SCIKIT-LEARN</li>
-			<li>MATPLOTLIB</li>
-		    <li>MATLAB</li>
-		    <li>SIMULINK</li>
-		  </ul>
-		</div>
-		<div class="col-sm-2">
-		  <ul>
-			<li>FORTRAN</li>
-			<li>VISUAL BASIC</li>
-			<li>SQL</li>
-			<li>HTLM</li>
-			<li>CSS</li>
-			<li>SASS</li>
-			<li>JAVASCRIPT</li>
-		  </ul>
-		</div>
-		<div class="col-sm-8">
-          <p>Experienced in a wide range of coding techniques, from back-end to front-end web development and specialist scientific and engineering programming and simulation.</p>
+		<div class="col-sm-6">
+          <figure><img src="Images/RW.jpg"></figure>
+		  <h2>Stef Church</h2>
+		  <h3>Co-founder & Systems Specialist</h3>
+		  <h4>stef.church@engineeringtheblue.com</h4>
 		</div>
 	  </div>
 	  
@@ -232,10 +118,6 @@
 	  
     </section>
 
-    <div class="row text-center">
-      <a class="btn btn-primary" href="mailto: contact@engineeringtheblue?subject = Enquiry">Find Out More</a>
-    </div>
-  </body>
 
   <footer class="footer">
 	<div class="row">

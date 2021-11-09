@@ -1,7 +1,7 @@
 /* Colours for use
-#7a93b1
-#2e6da4
-#4a637f
+#7a93b1  -  medium - logo
+#2e6da4  -  medium
+#4a637f  -  dark
 */
 
 body {
@@ -50,6 +50,14 @@ figure {
     100% { left: 0; }
 }
 
+
+	
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+	
 header nav {
   display: flex;
   justify-content: flex-end;
@@ -228,25 +236,48 @@ section.container .row {
   justify-content: center;
 }
 
-.jumbotron {
+.jumbotron1 {
   display: flex;
   align-items: center;
   height: 75vh;
-  background-image: url('https://steffic17.github.io/Images/Cirrus.jpg');
+  background-image: url('https://steffic17.github.io/Images/Stratosphere.jpg');
   background-size: cover;
   background-position: center;
 }
 
-.jumbotron h2 {
+.jumbotron1 h2 {
   background-color: #FFFFFF;
-  display: inline-block;
+/*  display: inline-block; */
   color: #2e6da4;
   font-weight: 700;
   padding: 10px 35px;
   border-radius: 5px;
 }
 
-.jumbotron h3 {
+.jumbotron1 h3 {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.jumbotron2 {
+  display: flex;
+  align-items: center;
+  height: 75vh;
+  background-image: url('https://steffic17.github.io/Images/data-processing.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron2 h2 {
+  background-color: #FFFFFF;
+/*  display: inline-block; */
+  color: #2e6da4;
+  font-weight: 700;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.jumbotron2 h3 {
   color: #FFFFFF;
   font-weight: bold;
 }
