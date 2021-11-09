@@ -1,7 +1,9 @@
 /* Colours for use
 #7a93b1  -  medium - logo
-#2e6da4  -  medium
-#4a637f  -  dark
+#2e6da4  -  medium blue
+#4a637f  -  dark blue
+#4b4b4b  -  dark grey
+#a4a4a4  -  light grey
 */
 
 body {
@@ -234,13 +236,8 @@ section.container .row {
 .jumbotron1 {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
-  height: 75vh;
   background-image: url('https://steffic17.github.io/Images/Stratosphere.jpg');
-=======
-  height: 400px;
-  background-image: url('https://steffic17.github.io/Images/Cirrus.jpg');
->>>>>>> parent of 0e28261 (Figure sizing)
+  height: 75vh;
   background-size: cover;
   background-position: center;
 }
