@@ -1,55 +1,159 @@
-@@ -53,7 +53,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Engineering the Blue</title>
+<link rel="shortcut icon" href="Images/Favicon.ico">
+
+<head>
+  <title>Engineering the Blue</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,500,300' rel='stylesheet' type='text/css'>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <style>
+  /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color: #4b4b4b;
+    }
+  </style>
+</head>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <logo class="col-sm-8">
+        <img src="Images/Logo-ghost.png">
+      </logo>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="mailto: contact@engineeringtheblue?subject = Enquiry">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
-    <section class="container">
-      <figure id="data-analysis" class="row text-center">
-      <figure id="data-analysis" class="text-center">
-        <img src="Images/data-processing.jpg">
-      </figure>
-      <div class="row">
-@ -80,7 +80,7 @@
-        <p align="right"><a href="#top">Back to top</a></p>
+<body>
+<!--  <header id="top" class="container">
+    <div class="row">
+      <logo class="col-sm-8">
+        <img src="Images/Logo.jpg">
+      </logo>
+<!-- Add a menu button to navigate
+      <nav class="col-sm-4 text-right">
+		<!-- <img class="btn btn-primary" src= "Images/menu-icon.png">
+		<div class="col-sm-8 dropdown">
+		  <button class="dropbtn pill-grey align-right"><img src="Images/menu-icon.png" /></button>
+		  <div class="dropdown-content">
+			<a href="#data-analysis">Data Analysis & Data Processing</a>
+			<a href="#computational-simulation">Computational Simulation</a>
+			<a href="#machine-learning">Machine Learning</a>
+			<a href="#spreadsheets">Spreadsheets & Databases</a>
+			<a href="#documentation">Documentation</a>
+			<a href="#languages">Languages</a>
+		  </div>
+		</div>
+		
+		<div class="col-sm-4 dropdown">
+		  <a href="mailto: contact@engineeringtheblue?subject = Enquiry"><button class="dropdown dropbtn pill-grey">Contact</button></a>
+		</div>
+      </nav>
+    </div>
+  </header>-->
+
+<!-- Jumbotron 1 -->
+  <section class="jumbotron1">
+    <div class="container">
+      <div class="row text-center">
+	  <!-- Add text here
+        <h2></h2>-->
+      </div>
+	 </div>
+  </section>
+	
+<!-- Jumbotron 2 -->
+  <section class="jumbotron2">
+    <div class="container">
+      <div class="row text-center">
+        <!-- Add text here
+        <h2></h2>-->
+      </div>
+	 </div>
+  </section>
+
+  <section>
+    <div class="row">
+      <h2 id="team">Team</h2>
+    </div>
+    <div class="row">
+	  <div class="col-sm-3">
 	  </div>
-	  
-      <figure id="computational-simulation" class="row text-center">
-      <figure id="computational-simulation" class="text-center">
-        <img src="Images/algorithm-development.jpg">
-      </figure>
-      <div class="row">
-@ -107,7 +107,7 @@
+      <div class="col-sm-3">
+		<figure class="row text-center><img src="Images/RW.png"></figure>
+		<h2>Rob Walden<br>Co-founder & Technical specialist</h2>
+		<p>rob.walden@engineeringtheblue.com</p>
 	  </div>
-	  
-	  
-      <figure id="machine-learning" class="row text-center">
-      <figure id="machine-learning" class="text-center">
-        <img src="Images/machine_learning.jpg">
-      </figure>
-      <div class="row">
-@ -142,7 +142,7 @@
-        <p align="right"><a href="#top">Back to top</a></p>
+      <div class="col-sm-1">
 	  </div>
-	  
-      <figure id="spreadsheets" class="row text-center">
-      <figure id="spreadsheets" class="text-center">
-        <img src="Images/Spreadsheet-Database.jpg">
-      </figure>
-      <div class="row">
-@ -167,7 +167,7 @@
+	  <div class="col-sm-3">
+        <figure class="row text-center"><img src="Images/SC.png"></figure>
+		<h2>Stef Church <br> Co-founder & Systems specialist</h2>
+		<p>stef.church@engineeringtheblue.com</p>
 	  </div>
-	  
-	  
-      <figure id="documentation" class="row text-center">
-      <figure id="documentation" class="text-center">
-        <img src="Images/Documentation.jpg">
-      </figure>
-      <div class="row">
-@ -192,7 +192,7 @@
-        <p align="right"><a href="#top">Back to top</a></p>
-	  </div>
-	  
-      <figure id="languages" class="row text-center">
-      <figure id="languages" class="text-center">
-        <img src="Images/scientific-programming.jpg">
-      </figure>
-      <div class="row">
-@ @@
+    </div>
+  </section>
+</body>
+
+<footer class="footer">
+  <div class="row">
+    <div class="col-sm-8">
+	  <h2>Engineering the Blue Limited</h2>
+	</div>
+	<div class="col-sm-1">
+      <img src= "Images/email.png">
+	</div>
+	<div class="col-sm-1">
+      <img src= "Images/twitter.png">
+	</div>
+	<div class="col-sm-1">
+      <img src= "Images/linked_in.png">
+	</div>
+	<div class="col-sm-1">
+      <img src= "Images/github.png">
+	</div>
+  </div>
+  <div class="row">
+	<h3 class="col-sm-2">Company number:</h3>
+    <p class="col-sm-4">8276633</p>
+  </div>
+  <div class="row">
+	<h3 class="col-sm-2">Registered office address:</h3>
+    <p class="col-sm-4">20-22 Wentlock Road, London N1 7GU</p>
+  </div>
+  <div class="row">
+	<h3 class="col-sm-2">Telephone:</h3>
+    <p class="col-sm-4">+44 5603 672 320</p>
+  </div>
+  <div class="row">
+	<h3 class="col-sm-2">Email:</h3>
+    <p class="col-sm-4">contact@engineeringtheblue.com</p>
+  </div>
+	
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</footer>
+</html>
