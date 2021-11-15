@@ -2,6 +2,8 @@
 #7a93b1  -  medium - logo
 #2e6da4  -  medium
 #4a637f  -  dark
+#4b4b4b  -  nav bar grey
+#f2f2f2  -  footer grey
 */
 
 body {
@@ -100,6 +102,17 @@ header .row {
 row {
 	justify-content: center;
 	align-items: center;}
+
+.row h1 {
+  margin: 10px 10px 15px;
+  min-width: 60px;
+  padding: 10px;
+  color: #2e6da4;
+  font-weight: 700;
+  font-size: 2rem;
+  position:center;
+  align-items: center;
+}
 
 .row h2 {
   margin: 10px 10px 15px;
@@ -262,13 +275,19 @@ section.container .row {
   align-items: center;
   height: 75vh;
   background-image: url('https://steffic17.github.io/Images/Stratosphere.jpg');
-  background-size: cover;
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron1 h2 {
-  background-color: #FFFFFF;
-/*  display: inline-block; */
+  background-color: #f2f2f2;
+  display: inline-block; 
   color: #2e6da4;
   font-weight: 700;
   padding: 10px 35px;
@@ -285,8 +304,15 @@ section.container .row {
   align-items: center;
   height: 75vh;
   background-image: url('https://steffic17.github.io/Images/Mast.jpg');
-  background-size: cover;
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron2 h2 {
@@ -308,8 +334,14 @@ section.container .row {
   align-items: center;
   height: 75vh;
   background-image: url('https://steffic17.github.io/Images/Tower.JPG');
-  background-size: cover;
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron3 h2 {
