@@ -20,15 +20,14 @@ figure img {
 
 figure {
   margin-bottom: 30px;
-  background-color: #7a93b1;
+  background-color: #white;
   padding: 15px;
 
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: example;
-  animation-duration: 4s;
-  /* animation-iteration-count: infinite; */
-  animation-iteration-count: infinite;
+/*  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+/*  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+/*  animation-name: example;
+/*  animation-duration: 4s;
+/*  animation-iteration-count: infinite;*/
 }
 
 /* The animation code */
@@ -126,7 +125,7 @@ row {
 
 .footer h3 {
   margin: 0px 30px 0px;
-  min-width: 60px;
+  min-width: 130px;
   /* max-width: 300px; */
   padding: 1px;
   font-weight: 700;
@@ -143,6 +142,23 @@ row {
   color: #2e6da4;
   font-size: 1rem;
 }
+
+.col-sm-1 img {
+  max-width: 32px;
+  max-height: 33px;
+}
+
+/*.col-sm-2 ul {
+  margin: 10px 10px 15px;
+  min-width: 60px;
+  max-width: 300px;
+  padding: 1px;
+  font-weight: 500;
+  color: #2e6da4;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+}*/
 
 .col-sm-3 p {
   margin: 10px 10px 15px;
@@ -164,20 +180,11 @@ row {
   font-size: 1.7rem;
 }
 
-
 .col-sm-3 img {
-  height: 20vh;
+  border-radius: 25px;
+  max-height: 300px;
   width: auto;
-  align-items: center;
-}
-
-.col-sm-4 p {
-  margin: 10px 10px 15px;
-  min-width: 60px;
-  max-width: 300px;
-  padding: 1px;
-  font-weight: 500;
-  color: #2e6da4;
+/*  height: auto;*/
   align-items: center;
   justify-content: center;
 }
@@ -189,6 +196,17 @@ row {
   color: #2e6da4;
   font-weight: 700;
   font-size: 1.7rem;
+}
+
+.col-sm-4 p {
+  margin: 10px 10px 15px;
+  min-width: 60px;
+  max-width: 300px;
+  padding: 1px;
+  font-weight: 500;
+  color: #2e6da4;
+  align-items: center;
+  justify-content: center;
 }
 
 .col-sm-4 ul {
@@ -203,43 +221,22 @@ row {
   line-height: 2;
 }
 
-.col-sm-2 ul {
-  margin: 10px 10px 15px;
-  min-width: 60px;
-  max-width: 300px;
-  padding: 1px;
-  font-weight: 500;
-  color: #2e6da4;
-  align-items: center;
-  justify-content: center;
-  line-height: 2;
-}
-
-.col-sm-6 p {
-  margin: 10px 10px 15px;
-  min-width: 60px;
-  /* max-width: 300px; */
-  padding: 1px;
-  font-weight: 500;
-  color: #2e6da4;
-  align-items: center;
+.col-sm-4 img {
+  min-height: 300px;
+  width: auto;
+ /* max-height: 500px;*/
   justify-content: center;
 }
 
-.col-sm-6 h2 {
+.col-sm-8 h1 {
   margin: 40px 10px 15px;
   min-width: 60px;
   padding: 1px;
   color: #2e6da4;
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 3rem;
 }
 
-.col-sm-6 img {
-  height: 95%;
-  position
-  align-items: center;
-}
 
 .col-sm-8 p {
   margin: 10px 10px 15px;
@@ -250,7 +247,18 @@ row {
   color: #2e6da4;
   align-items: center;
   justify-content: center;
+  font-size: 2rem;
 }
+
+.col-sm-8 img {
+  align-items: center;
+  /* min-width: 32px; */
+  min-height: 33px;
+  max-width: 250px;
+  /* max-height: 300px; */
+}
+
+
 
 /* .col-sm-6 p {
   margin: 1px 10px 1px;
@@ -274,7 +282,7 @@ section.container .row {
   display: flex;
   align-items: center;
   height: 75vh;
-  background-image: url('https://steffic17.github.io/Images/Stratosphere.jpg');
+  background-image: url('https://steffic17.github.io/Images/Mast.jpg');
   /* Set a specific height */
   min-height: 500px;
 
@@ -283,80 +291,27 @@ section.container .row {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.jumbotron1 h1 {
+  color: #FFFFFF;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 10px 35px;
+  border-radius: 5px;
+  text-align: left;
 }
 
 .jumbotron1 h2 {
-  background-color: #f2f2f2;
-  display: inline-block; 
-  color: #2e6da4;
-  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: bold;
   padding: 10px 35px;
   border-radius: 5px;
+  text-align: left;
 }
 
-.jumbotron1 h3 {
-  color: #FFFFFF;
-  font-weight: bold;
-}
 
-.jumbotron2 {
-  display: flex;
-  align-items: center;
-  height: 75vh;
-  background-image: url('https://steffic17.github.io/Images/Mast.jpg');
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.jumbotron2 h2 {
-  background-color: #FFFFFF;
-/*  display: inline-block; */
-  color: #2e6da4;
-  font-weight: 700;
-  padding: 10px 35px;
-  border-radius: 5px;
-}
-
-.jumbotron2 h3 {
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
-.jumbotron3 {
-  display: flex;
-  align-items: center;
-  height: 75vh;
-  background-image: url('https://steffic17.github.io/Images/Tower.JPG');
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.jumbotron3 h2 {
-  background-color: #FFFFFF;
-/*  display: inline-block; */
-  color: #2e6da4;
-  font-weight: 700;
-  padding: 10px 35px;
-  border-radius: 5px;
-}
-
-.jumbotron3 h3 {
-  color: #FFFFFF;
-  font-weight: bold;
-}
 
 
 .btn-primary {
@@ -374,25 +329,6 @@ section.container .row {
   width: auto;
   max-height: 300px;
 }
-
-.col-sm-1 img {
-  max-width: 32px;
-  max-height: 33px;
-}
-
-.col-sm-4 img {
-  max-width: auto;
-  max-height: 33px;
-}
-
-.col-sm-8 img {
-  align-items: center;
-  /* min-width: 32px; */
-  min-height: 33px;
-  max-width: 250px;
-  /* max-height: 300px; */
-}
-
 
 
 /* Dropdown Content (Hidden by Default) */
